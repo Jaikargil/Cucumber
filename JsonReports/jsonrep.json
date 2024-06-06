@@ -1,0 +1,476 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-06T06:55:08.487Z",
+        "line": 3,
+        "name": "Username and password validation",
+        "description": "",
+        "id": "login-to-facebook;username-and-password-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3424105600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser Conf",
+            "match": {
+              "location": "StepDefinition.browser_Conf()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2199917200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser Launch",
+            "match": {
+              "location": "StepDefinition.browser_Launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 875980700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Username",
+            "match": {
+              "location": "StepDefinition.username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186983000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Password",
+            "match": {
+              "location": "StepDefinition.password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110265900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click login",
+            "match": {
+              "location": "StepDefinition.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153133100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close facebook",
+            "match": {
+              "location": "StepDefinition.close_facebook()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-06T06:55:15.514Z",
+        "line": 33,
+        "name": "To provide bulk value to email data and password data",
+        "description": "",
+        "id": "login-to-facebook;to-provide-bulk-value-to-email-data-and-password-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2014566200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To configure the application",
+            "match": {
+              "location": "FbBulkExecution.to_configure_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1999562400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To launch the application",
+            "match": {
+              "location": "FbBulkExecution.to_launch_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122231300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To pass valid and invalid \"jai@gmail.com\" on email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jai@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_email_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126767100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "To pass valid and invalid \"1123457896\" on password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1123457896\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_password_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82434000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter login",
+            "match": {
+              "location": "FbBulkExecution.enter_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185488600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Quit the application",
+            "match": {
+              "location": "FbBulkExecution.quit_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-06T06:55:20.068Z",
+        "line": 34,
+        "name": "To provide bulk value to email data and password data",
+        "description": "",
+        "id": "login-to-facebook;to-provide-bulk-value-to-email-data-and-password-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1705944900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To configure the application",
+            "match": {
+              "location": "FbBulkExecution.to_configure_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1376228000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To launch the application",
+            "match": {
+              "location": "FbBulkExecution.to_launch_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117131100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To pass valid and invalid \"test@gmail.com\" on email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_email_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123724700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "To pass valid and invalid \"test@123\" on password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_password_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86017300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter login",
+            "match": {
+              "location": "FbBulkExecution.enter_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175910700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Quit the application",
+            "match": {
+              "location": "FbBulkExecution.quit_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-06T06:55:23.658Z",
+        "line": 35,
+        "name": "To provide bulk value to email data and password data",
+        "description": "",
+        "id": "login-to-facebook;to-provide-bulk-value-to-email-data-and-password-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699390900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To configure the application",
+            "match": {
+              "location": "FbBulkExecution.to_configure_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2134801000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To launch the application",
+            "match": {
+              "location": "FbBulkExecution.to_launch_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124507500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To pass valid and invalid \"chennai@gmail.com\" on email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chennai@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_email_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120695900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "To pass valid and invalid \"sdfskhdv\" on password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sdfskhdv\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_password_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73461800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter login",
+            "match": {
+              "location": "FbBulkExecution.enter_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178762400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Quit the application",
+            "match": {
+              "location": "FbBulkExecution.quit_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-06T06:55:27.995Z",
+        "line": 36,
+        "name": "To provide bulk value to email data and password data",
+        "description": "",
+        "id": "login-to-facebook;to-provide-bulk-value-to-email-data-and-password-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1730837800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To configure the application",
+            "match": {
+              "location": "FbBulkExecution.to_configure_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2208716100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To launch the application",
+            "match": {
+              "location": "FbBulkExecution.to_launch_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134795900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To pass valid and invalid \"smart@gmail.com\" on email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smart@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_email_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121909500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "To pass valid and invalid \"Smart@678\" on password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Smart@678\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FbBulkExecution.to_pass_valid_and_invalid_on_password_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73437100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter login",
+            "match": {
+              "location": "FbBulkExecution.enter_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151923200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Quit the application",
+            "match": {
+              "location": "FbBulkExecution.quit_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to facebook",
+    "description": "",
+    "id": "login-to-facebook",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/jaika/eclipse-workspace/CucumberDemo/src/test/resources/GoogleSearch/facebook.feature",
+    "tags": []
+  }
+]

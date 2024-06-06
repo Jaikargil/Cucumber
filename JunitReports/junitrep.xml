@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="23.910896">
+    <testcase classname="Login to facebook" name="Username and password validation" time="7.007151">
+        <system-out>
+            <![CDATA[Given Browser Conf..........................................................passed
+When Browser Launch.........................................................passed
+And Username................................................................passed
+And Password................................................................passed
+And Click login.............................................................passed
+Then Close facebook.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to facebook" name="To provide bulk value to email data and password data" time="4.551782">
+        <system-out>
+            <![CDATA[Given To configure the application..........................................passed
+When To launch the application..............................................passed
+And To pass valid and invalid "jai@gmail.com" on email textbox..............passed
+And To pass valid and invalid "1123457896" on password textbox..............passed
+And Enter login.............................................................passed
+Then Quit the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to facebook" name="To provide bulk value to email data and password data 2" time="3.589773">
+        <system-out>
+            <![CDATA[Given To configure the application..........................................passed
+When To launch the application..............................................passed
+And To pass valid and invalid "test@gmail.com" on email textbox.............passed
+And To pass valid and invalid "test@123" on password textbox................passed
+And Enter login.............................................................passed
+Then Quit the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to facebook" name="To provide bulk value to email data and password data 3" time="4.335592">
+        <system-out>
+            <![CDATA[Given To configure the application..........................................passed
+When To launch the application..............................................passed
+And To pass valid and invalid "chennai@gmail.com" on email textbox..........passed
+And To pass valid and invalid "sdfskhdv" on password textbox................passed
+And Enter login.............................................................passed
+Then Quit the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to facebook" name="To provide bulk value to email data and password data 4" time="4.426598">
+        <system-out>
+            <![CDATA[Given To configure the application..........................................passed
+When To launch the application..............................................passed
+And To pass valid and invalid "smart@gmail.com" on email textbox............passed
+And To pass valid and invalid "Smart@678" on password textbox...............passed
+And Enter login.............................................................passed
+Then Quit the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
